@@ -10,7 +10,7 @@ subject: "Team Intro: {{{ join (mapToKey project.students 'givenName') ' <> ' }}
 
 {{ join (names project.students) '/' }} (students), and {{ join (names project.mentors) '/'}} (mentors) --
 
-Welcome to CodeDay Labs! We have placed you together in a team, working on this project:
+Welcome to CodeDay Labs! We have placed you together in a team, here is the project description:
 
 <blockquote>{{ project.description }}</blockquote>
 
